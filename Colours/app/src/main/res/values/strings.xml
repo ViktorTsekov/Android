@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Colours</string>
+    <string name="shared_preferences">prefs</string>
+    <string name="CR1"></string>
+    <string name="CG1"></string>
+    <string name="CB1"></string>
+    <string name="CR2"></string>
+    <string name="CG2"></string>
+    <string name="CB2"></string>
+    <string name="CR3"></string>
+    <string name="CG3"></string>
+    <string name="CB3"></string>
+    <string name="CurrentRedColour"></string>
+    <string name="CurrentGreenColour"></string>
+    <string name="CurrentBlueColour"></string>
+</resources>

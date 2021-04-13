@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColourLoader">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Col1"
+                android:layout_width="217dp"
+                android:layout_height="105dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Colour 1"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/Col1btn"
+                android:layout_width="161dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Load 1" />
+
+            <TextView
+                android:id="@+id/Col2"
+                android:layout_width="217dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop=" 20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Colour 2"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/Col2btn"
+                android:layout_width="161dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Load 2" />
+
+            <TextView
+                android:id="@+id/Col3"
+                android:layout_width="217dp"
+                android:layout_height="109dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="193dp"
+                android:layout_marginRight="193dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Colour 3"
+                android:textColor="@color/black"
+                android:textSize="32dp" />
+
+            <Button
+                android:id="@+id/Col3btn"
+                android:layout_width="161dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:text="Load 3" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

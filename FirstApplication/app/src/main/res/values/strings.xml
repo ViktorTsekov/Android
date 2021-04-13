@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">First Application</string>
+    <string name="hello_android">Hello Android</string>
+    <string name="instructions">Guess a number between 1 and %d</string>
+</resources>

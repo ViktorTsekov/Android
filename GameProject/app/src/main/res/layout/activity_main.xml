@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuBackground"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/StartBtn"
+        android:layout_width="198dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="10dp"
+        android:text="Start Game"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toTopOf="@+id/SettingsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+    <Button
+        android:id="@+id/SettingsBtn"
+        android:layout_width="198dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="10dp"
+        android:text="Settings"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toTopOf="@+id/HighScoreBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StartBtn" />
+
+    <Button
+        android:id="@+id/CreditsBtn"
+        android:layout_width="198dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="10dp"
+        android:text="Credits"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toTopOf="@+id/ExitBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InstructionsBtn" />
+
+    <Button
+        android:id="@+id/InstructionsBtn"
+        android:layout_width="198dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="10dp"
+        android:text="Instructions"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toTopOf="@+id/CreditsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HighScoreBtn" />
+
+    <Button
+        android:id="@+id/ExitBtn"
+        android:layout_width="198dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="122dp"
+        android:text="Exit"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreditsBtn" />
+
+    <Button
+        android:id="@+id/HighScoreBtn"
+        android:layout_width="198dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="10dp"
+        android:text="High Score"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toTopOf="@+id/InstructionsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SettingsBtn" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="248dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Circle Frenzy"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/StartBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

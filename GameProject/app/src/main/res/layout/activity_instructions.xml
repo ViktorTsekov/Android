@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuBackground"
+    tools:context=".Instructions">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="310dp"
+        android:layout_height="608dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="57dp"
+        android:gravity="center_horizontal"
+        android:text="Circle Frenzy is an arena based game. There are three levels to complete and each level introduces a new type of enemy. After the three levels are completed the player proceeds to endless mode where the enemies are spawned indefinitely. You can move your player by using the joystick and shoot a projectile by clicking anywhere on the screen. After you are finished your result and your name will be saved to a database. Your goal is to achieve the highest result possible and make your way to the leaderboard.\n\nGood Luck! "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
