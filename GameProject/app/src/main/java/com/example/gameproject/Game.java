@@ -25,7 +25,7 @@ import java.util.List;
     Game manages all of the objects inside the game
  */
 public class Game extends SurfaceView implements SurfaceHolder.Callback {
-    private static final int MAX_ENEMIES_ON_SCREEN = 6;
+    private static final int MAX_ENEMIES_ON_SCREEN = 4;
 
     private final Player player;
     private final Joystick joystick;

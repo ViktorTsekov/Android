@@ -81,6 +81,7 @@ public class HighScore extends AppCompatActivity {
 
                 int n = list.size();
 
+
                 //Sort the entries
                 for(int i = 0; i < n; i++) {
 
@@ -94,7 +95,7 @@ public class HighScore extends AppCompatActivity {
 
                 }
 
-                String txtPrint = "";
+                String txtPrint = "High Score Rankings\n\n";
                 int count = 1;
 
                 //Print the highest ten results

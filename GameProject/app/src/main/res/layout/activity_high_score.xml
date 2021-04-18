@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/highScore"
+        android:id="@+id/HighScoreTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="75dp"
@@ -32,7 +32,6 @@
         android:layout_marginEnd="76dp"
         android:layout_marginBottom="32dp"
         android:gravity="center_horizontal"
-        android:text="High Score Ranking"
         android:textColor="@color/white"
         android:textSize="24dp"
         app:layout_constraintBottom_toTopOf="@+id/HighScoreView"
